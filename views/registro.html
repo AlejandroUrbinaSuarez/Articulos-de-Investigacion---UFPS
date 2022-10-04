@@ -4,9 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/registro.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
-    <img src="../img/LogoUFPS.jpg" alt="">
+   <!--  <section class="form-register">
+        <h4>Formulario Registro</h4>
+        <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+        <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+        <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+        <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
+        
+        <input class="botons" type="submit" value="Registrar">
+        <p><a href="../index.html">¿Ya tengo Cuenta?</a></p>
+      </section>-->
+      <div class="container">
+        <div class="form2">
+          <div class="titulo">
+            <img id="img" src="../img/logoufps.jpg" >
+          </div>
+      <form>
+        <div class="row">
+          <div class="col-xd-12 col-sm-6">
+            <label for="register-form" id="email">Email</label><br>
+            <input type="text" id="email" class="register" name="regisrer" placeholder="Email"><br>
+            <label for="register-form" id="nombre">Nombre</label><br>
+            <input type="text" id="nombre" class="register" name="regisrer" placeholder="Nombre">
+            <br><br>
+            <select class="form-select form-select-sm" aria-label="Default select example">
+              <option selected>Colombia</option>
+              <option value="1">Venezuela</option>
+              <option value="2">Argentina</option>
+            </select>
+        </div>
+        
+          <div class="col-sm-6">
+            <label for="register-form" id="entidad">Entidad</label><br>
+            <input type="text" id="entidad" class="register" name="regisrer" placeholder="Entidad"><br>
+            <label for="register-form" id="password">Password</label><br>
+            <input type="text" id="password" class="register" name="regisrer" placeholder="Password">
+            <br><br>
+            <div class="row button">
+              <input type="button" value="Ingresar" id="ingresar">
+
+            </div>
+          </div>
+        
+        </div>
+        </div>
+      </form>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
