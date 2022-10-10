@@ -1,12 +1,17 @@
+body{
+  background-image: url(../img/logosis.jpg);
+background-size: 10%;
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
   }
   
 .container{
-  position: relative;
   
+  background-color: white;
 }
 
 .form2{
@@ -15,6 +20,7 @@
   margin-left: 25%;
   margin-right: 10%;
   margin-bottom: 10%;
+ 
 }
 
 select{
@@ -22,6 +28,7 @@ select{
     width:50% !important;
    
 }
+
 
   
 input{
@@ -31,13 +38,17 @@ input{
     
 }
 
+#paisR{
+  border: 1px solid #000000;
+}
+
 #registrar{
-  
-  width: 50%;
-  color: white;
-  font-size: 20px;
-  background: #990202;
-  cursor: pointer;
+  box-sizing: border-box; 
+    width: 50%;
+    height: 31px;
+    background: #D31024;
+    border: 1px solid #000000;
+    border-radius: 0px 0px 0px 20px;
 }
 
 #img{
