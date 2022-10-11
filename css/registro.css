@@ -1,27 +1,27 @@
-body{
-  background-image: url(../img/logosis.jpg);
-background-size: 10%;
-}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    font-family: 'Poppins',sans-serif;
+
   }
   
-.container{
-  
-  background-color: white;
+body{
+  background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 15%, rgba(255,169,169,1) 54%, rgba(255,0,0,1) 99%);
 }
 
+
+
 .form2{
-  
   margin-top: 20%;
   margin-left: 25%;
   margin-right: 10%;
   margin-bottom: 10%;
- 
 }
+
+
 
 select{
   object-fit: cover;
@@ -35,6 +35,7 @@ input{
     text-align: center;
     object-fit: cover;
     width:50%;
+    background-color: white;
     
 }
 
